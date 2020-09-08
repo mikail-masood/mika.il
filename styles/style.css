@@ -286,7 +286,7 @@ h3 {font-size: var(--fs-h3);}
     text-align: left;
     position: relative;
     height: min-content;
-    left: -1.5em;
+    left: -1em;
     width: calc(100% + 30em);
   }
 
