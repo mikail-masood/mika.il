@@ -224,7 +224,7 @@ h3 {font-size: var(--fs-h3);}
     width: min-content;
     margin: 0 auto;
     grid-template-areas:
-      'main main main main'
+      'main main main .'
       'title img01 img02 img03'
       'desc img01 img02 img03'
       'title1 img11 img12 img13'
