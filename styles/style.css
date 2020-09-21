@@ -146,7 +146,7 @@ h3 {font-size: var(--fs-h3);}
 }
 
 .social__icons {
-  color: var(--clr-accent);
+  color: var(--clr-dark);
   padding: 0 0.25em;
   font-size: var(--fs-h3);
 }
@@ -246,6 +246,7 @@ h3 {font-size: var(--fs-h3);}
   .section__title--proj {
     display: block;
     padding: 0.5em 1em;
+    text-align: left;
   }
 
   .projects {
