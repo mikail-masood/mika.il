@@ -1,0 +1,96 @@
+.projects{
+  height: max-content;
+}
+
+.page__title{
+  overflow-y: hidden;
+  padding-top: 15%;
+  padding-left: 15%;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+.page__subtitle{
+  overflow-y: hidden;
+  margin-top: -2%;
+  padding-left: 15%;
+  font-size: 20px;
+  color: gray;
+}
+
+.thumbnails{
+  padding-bottom: 10%;
+  overflow-y:hidden ;
+  height: max-content;
+  margin-left: 15%;
+  margin-top: 20%;
+  display: grid;
+  grid-template-areas: 
+  'web tnu'
+  'wec .';
+  grid-template-columns: max-content max-content;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+.container_1{
+  grid-area: web;
+}
+.web1{
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.web1:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.container_2{
+  grid-area: tnu;
+}
+.app1{
+  max-width: 500px;
+  border-radius: 10px;
+}
+.app1:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.container_3{
+  grid-area: wec;
+}
+.app2{
+  max-width: 500px;
+  border-radius: 10px;
+}
+.app2:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Variation for mobile screens */
+@media screen and (max-width:768px){
+  .page__subtitle{
+    margin-top: -6%;
+  }
+
+  .thumbnails{
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .web1{
+    max-width: 75%;
+    margin-bottom: 2%;
+  }
+  .app1{
+    max-width: 75%;
+    margin-bottom: 2%;
+  }
+  .app2{
+    max-width: 75%;
+    margin-bottom: 2%;
+  }
+}
