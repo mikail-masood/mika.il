@@ -8,113 +8,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            <p>/mick-ka-el/</p>
-        </div>
-    </header>
+     <!-- Nav bar-->
+    <nav>
+    <div class="logo">
+        <a href="index.html">/mik-ka-yul/</a>
+    </div>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
 
     <!-- introduction-->
 
-    <section class="intro" id='home'>
-        <h1 class="section__title section__title--intro">
-            <strong>Mikail Masood</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">
-            App Dev and Analytics
+    <section class="intro">
+        <img class ="intro__img" src="/styles/images/IMG_5185.png" alt="profile_photo">
+        <h1 class="intro__title">Mikail Masood</h1>
+        <p class="intro__para">
+            I am a mobile application and front-end web developer based in Toronto. <br>
+            I'm always looking for new and exciting oppurtunities to expand my skill set, so if you would like to work 
+            on a project with me, you can <a href="#">messsage me here</a>. Or look at some of my <a href="projects.html"> projects here</a>.
         </p>
-        <img src="styles/images/mm01.jpg" alt="temporary picture" , class="intro__img">
-        <div class= "social__icons">
         <ul class="social-list1">
-            <li class="social-list1__item">
-                <a class="social-list1__link" href="https://github.com/mikail-masood">
+            <li class="social-list__item1">
+                <a class="social-list__link1" href="https://github.com/mikail-masood">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
-            <li class="social-list1__item">
-                <a class="social-list1__link" href="https://twitter.com/MikailMasood">
+            <li class="social-list__item1">
+                <a class="social-list__link1" href="https://twitter.com/MikailMasood">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
-            <li class="social-list1__item">
-                <a class="social-list1__link" href="https://www.instagram.com/mikailmasood/">
+            <li class="social-list__item1">
+                <a class="social-list__link1" href="https://www.instagram.com/mikailmasood/">
                     <i class="fab fa-instagram"></i>
                 </a>
             </li>
         </ul>
-    </div>
-    </section>
-
-    <!-- About me-->
-
-    <div class="about__me">
-        <p class="about__me--para">
-            Best descibed as a jack of all trades, master of _some_.
-            I am interested in front-end/ back-end mobile app
-            development, web development, alternative UI/ UX design,
-            sports analytics, and various other things you probably don't
-            care about. In addition, I am proficient in python, R, SQL, dart,
-            Objective-C/Swift, html, css, JavaScript. I have been doing 
-            freelance work, building apps andwebsites for small business',
-            If you are interested in workingon a project you can contact me 
-            here.
-            I will use this page to display some of my recent projects.
-            </p>
-    </div>
-
-    <!-- Personal Prjects-->
-    <div>
-        
-    </div>
-    <section class="projects" id='projects'>
-        <h1 class="section__title section__title--proj">
-            App Development Projects
-        </h1>
-       <h2 class = "section__subtitle section__subtitle--proj">
-           toiletnearU (BETA)
-       </h2>
-       <p class="section__description section__description--proj">
-           A mobile application that allows users to find washrooms on
-           campus. Users are able to rate, review bathrooms as well as flag
-           them for potential issues (business/ leaks/ overflows/ out of TP).
-           Application is currently being tested expected release winter 2021
-           semester. This application was created using Google's Flutter
-           framework utilizing Dart & JavaScript programming languages,
-           Google Maps API, and a Firebase/Firestore backend.  
-       </p>
-       <img src="styles/images/tnu1.jpg" alt="" class ="proj__img1">
-       <img src="styles/images/tnu2.jpg" alt="" class ="proj__img2">
-       <img src="styles/images/tnu3.jpg" alt="" class ="proj__img3">
-
-        <h2 class = "section__subtitle section__subtitle--proj1">
-            WeCare
-        </h2>
-        <p class="section__description section__description--proj1">
-            A mobile application developed for WeCare Pakistan, to track
-            patient vitals and other useful metrics by their nurses and
-            attendants. The application also tracks nurse's activity. The
-            images are pre-release as the final product belongs to WeCare
-            Pakistan. This application was created using Objective-C, Swift,
-            JavaScript, and utilized a Firebase/ Firestore backend.
-        </p>
-        <img src="styles/images/wecare_login.jpg" alt="" class="proj1__img1">
-        <img src="styles/images/wecare_menu.jpg" alt="" class="proj1__img2">
-        <img src="styles/images/wecare_vitals.jpg" alt="" class="proj1__img3">
-
-
-    </section>
-
-    <!-- Data Analytics Blog -->
-    <section class="blog" id= "blog">
-        <h1 class="section__title section__title--blog">
-            <strong> Data Analytics Blog </strong> 
-        </h1>
     </section>
 
     <!-- footer -->
@@ -138,7 +79,7 @@
             </li>
         </ul>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 
 </html>
