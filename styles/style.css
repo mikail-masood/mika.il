@@ -73,18 +73,21 @@ nav{
 }
 
 .intro__img {
+  opacity: 0;
   grid-area: image;
   background-color: #fee074;
   border-radius: 230px;
 }
 
 .intro__title{
+  opacity: 0;
   overflow-y: hidden;
   grid-area: title;
   font-size: 65px;
   margin-bottom: 5%;
 }
 .intro__para{
+  opacity: 0;
   overflow-y: hidden;
   grid-area: text;
   margin-bottom: 1%;
@@ -100,6 +103,7 @@ nav{
 }
 
 .social-list1 {
+  opacity: 0;
   grid-area: socials;
   list-style: none;
   display: flex;
