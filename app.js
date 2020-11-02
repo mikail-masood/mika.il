@@ -25,3 +25,18 @@ const navSlide = () => {
 
 navSlide();
 
+// intro section fade om animation
+
+const image = document.querySelector(".intro__img");
+const title = document.querySelector(".intro__title");
+const para = document.querySelector(".intro__para");
+const socials = document.querySelector(".social-list1");
+
+const t1 = new TimelineMax();
+
+
+t1.fromTo(image, 1, { opacity: "0.0" } , { opacity: "1", ease: Power2.easeInOut })
+  .fromTo(title, 1, { opacity: "0.0" }, { opacity:"1", ease: Power2.easeInOut }, "-=0.5")
+  .fromTo(para, 1.1, { opacity: "0.0" }, { opacity:"1", ease: Power2.easeInOut }, "-=0.75")
+  .fromTo(socials, 1.1, { opacity: "0.0" }, { opacity:"1", ease: Power2.easeInOut },"-=1.1");
+
