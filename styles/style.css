@@ -77,6 +77,8 @@ nav{
   grid-area: image;
   background-color: #fee074;
   border-radius: 230px;
+  position: relative;
+  filter: contrast(120%);
 }
 
 .intro__title{
