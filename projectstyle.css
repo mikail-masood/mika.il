@@ -33,6 +33,7 @@
 }
 
 .container_1{
+  position: relative;
   grid-area: web;
 }
 .web1{
@@ -47,6 +48,7 @@
 }
 
 .container_2{
+  position: relative;
   grid-area: tnu;
 }
 .app1{
@@ -58,6 +60,7 @@
   cursor: pointer;
 }
 .container_3{
+  position: relative;
   grid-area: wec;
 }
 .app2{
@@ -67,6 +70,14 @@
 .app2:hover{
   opacity: 0.5;
   cursor: pointer;
+}
+
+.description{
+  opacity: 0.0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Variation for mobile screens */
