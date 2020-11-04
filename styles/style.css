@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: inherit;
   overflow-x: hidden;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Nav Bar*/
@@ -75,10 +75,11 @@ nav{
 .intro__img {
   opacity: 0;
   grid-area: image;
-  background-color: #fee074;
+  background-color: #fee070;
   border-radius: 230px;
   position: relative;
-  filter: contrast(120%);
+  filter: contrast(135%);
+  width: 20em;
 }
 
 .intro__title{
