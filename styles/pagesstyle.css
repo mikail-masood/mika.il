@@ -1,0 +1,40 @@
+.desc{
+  height: max-content;
+}
+
+.page__title{
+  overflow-y: hidden;
+  padding-top: 15%;
+  padding-left: 15%;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.page__subtitle{
+  overflow-y: hidden;
+  margin-top: -3%;
+  padding-left: 16%;
+  font-size: 20px;
+  color: gray;
+}
+
+.page__subtitle a{
+  overflow-y: hidden;
+  color: gray;
+}
+
+.landing__img{
+  overflow: hidden;
+  padding-top: 20%;
+  padding-left: 15%;
+  object-fit: cover;
+  width: 75%;
+}
+
+.description__para{
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  font-size: 20px;
+}
