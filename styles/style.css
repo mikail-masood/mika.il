@@ -219,11 +219,12 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
   }
   .footers{
     padding-top:2em;
     bottom: 0;
+    overflow: hidden;
   }
 }
 
