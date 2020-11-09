@@ -184,7 +184,7 @@ nav{
 /* Variation for mobile screens */ 
 
 @media screen and (max-width:768px){
-  body{
+  #body{
     overflow: hidden;
   }
   /* Nav Bar */ 
@@ -222,11 +222,11 @@ nav{
     align-items: center;
     min-height: 80vh;
   }
-  .footers{
+  #footer{
     padding-top:2em;
-    bottom: 0;
     position: absolute;
-    overflow: hidden;
+    bottom: 0;
+    
   }
 }
 
