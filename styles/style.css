@@ -216,6 +216,7 @@ nav{
 
   /* Intro */
   .intro{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,6 +225,7 @@ nav{
   .footers{
     padding-top:2em;
     bottom: 0;
+    position: absolute;
     overflow: hidden;
   }
 }
