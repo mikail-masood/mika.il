@@ -62,7 +62,7 @@ nav{
 
 .intro{
   position: relative;
-  height: max-content;
+  height: 100%;
   padding: 10% 5% 10% 5%;
   display: grid;
   grid-template-areas: 
@@ -219,10 +219,10 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 80vh;
   }
-  .footer{
-    padding: 2em 2em;
-    position: absolute;
+  .footers{
+    padding-top:2em;
     bottom: 0;
   }
 }
