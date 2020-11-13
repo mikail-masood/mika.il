@@ -78,7 +78,7 @@ nav{
   opacity: 0;
   grid-area: image;
   background-color: #fee070;
-  border-radius: 230px;
+  border-radius: 50%;
   position: relative;
   filter: contrast(135%);
   width: 20em;
