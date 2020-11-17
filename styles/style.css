@@ -59,9 +59,12 @@ nav{
 }
 
 /* Intro */
-
+.section{
+  height: 100vh;
+}
 .intro{
-  position: relative;
+  position: center;
+  justify-content: center;
   height: 100%;
   padding: 10% 5% 10% 5%;
   display: grid;
@@ -95,7 +98,7 @@ nav{
   opacity: 0;
   overflow-y: hidden;
   grid-area: text;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   font-size: 18px;
 }
 .intro__para a{
@@ -133,6 +136,7 @@ nav{
 /* footer */
 
 .footers{
+  position: absolute;
   background: black;
   color: white;
   text-align: center;
@@ -209,6 +213,7 @@ nav{
   }
   .nav__links li{
     opacity: 0;
+    height: 60%;
   }
   .burger{
     display: block;
@@ -222,11 +227,8 @@ nav{
     align-items: center;
     min-height: 80vh;
   }
-  #footer{
-    padding-top:2em;
-    position: absolute;
-    bottom: 0;
-    
+  .footers{
+    position: relative;
   }
 }
 
