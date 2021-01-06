@@ -40,3 +40,10 @@ t1.fromTo(image, 1, { opacity: "0.0" } , { opacity: "1", ease: Power2.easeInOut 
   .fromTo(para, 1.1, { opacity: "0.0" }, { opacity:"1", ease: Power2.easeInOut }, "-=0.75")
   .fromTo(socials, 1.1, { opacity: "0.0" }, { opacity:"1", ease: Power2.easeInOut },"-=1.1");
 
+// dark theme 
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', () => {
+  document.body.classList.toggle('dark');
+})
