@@ -6,6 +6,18 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  transition: background 0.2s linear;
+}
+
+body.dark{
+  background-color: black;
+}
+body.dark p,
+body.dark h1,
+body.dark a{
+  color: #fff;
+}
 /* Nav Bar*/
 /* nav bar default (full screen) */
 
@@ -59,9 +71,55 @@ nav{
 }
 
 /* Intro */
+
+.checkbox{
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(32px);
+}
+
+.label{
+  margin-top: 4%;
+  margin-left: 40%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 50px;
+  position: relative;
+  width: 50px;
+  height: 24px;
+  grid-area: label;
+}
+
+
+.ball{
+  height: 22px;
+  width: 22px;
+  background-color: #fff;
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.fa-moon{
+  color: #f1c40f;
+}
+
+.fa-sun{
+  color: #f39c12;
+}
+
 .section{
   height: 100vh;
 }
+
 .intro{
   position: center;
   justify-content: center;
@@ -73,7 +131,7 @@ nav{
   'image . title'
   'image . text'
   'image . socials'
-  'image . .';
+  'label . .';
   grid-template-columns: auto 50px auto;
 }
 
