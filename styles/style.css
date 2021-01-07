@@ -200,7 +200,7 @@ nav{
   text-align: center;
   padding: 1.5em 1em;
   font-size: var(--fs-h3);
-  bottom: 0;
+  bottom: -10;
   width: 100%;
 }
 
@@ -278,6 +278,9 @@ nav{
   }
 
   /* Intro */
+  .label{
+    left: 25%;
+  }
   .intro{
     position: relative;
     display: flex;
